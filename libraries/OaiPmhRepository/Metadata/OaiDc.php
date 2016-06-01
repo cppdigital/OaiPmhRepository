@@ -83,7 +83,8 @@ class OaiPmhRepository_Metadata_OaiDc implements OaiPmhRepository_Metadata_Forma
                     $files = $item->getFiles();
                     foreach($files as $file) 
                     {
-                        $oai_dc->appendNewElement('dc:identifier', $file->getWebPath('original'));
+                        $oai_dc->appendNewElement('dc:identifier', $file->getWebPath('original'), 'original');
+                        $oai_dc->appendNewElement('dc:identifier', $file->getWebPath('thumbnail'), 'thumbnail');
                     }
                 }
             }
