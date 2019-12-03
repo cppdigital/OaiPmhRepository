@@ -1,5 +1,5 @@
 # OAI-PMH Repository #
-A plugin for Omeka.
+A plugin for Omeka. OaiDC output has modified metadata and thumbnail output for PA DPLA Hub.
 
 This plugin implements an Open Archives Initiative Protocol for Metadata
 Harvesting ([OAI-PMH][1]) repository for Omeka, allowing Omeka items to be
